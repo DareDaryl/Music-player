@@ -369,3 +369,22 @@
       text-align: center;
     }
   }
+  /* styles4.css */
+body {
+  background-image: url('./rainy.jpg'); /* Add your image URL here */
+  background-size: cover;  /* Ensures the image covers the entire screen */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  height: 100vh;  /* Ensures the body takes the full viewport height */
+  margin: 0;  /* Removes default margin */
+}
+.fcc-title {
+  white-space: nowrap;    /* Prevents text from wrapping */
+  overflow: visible;       /* Prevents text from overflowing the container */
+  text-overflow: ellipsis; /* Optionally adds "..." if text doesn't fit (can be removed if not needed) */
+}
+.player-bar {
+  width: 100%; /* Or adjust to the desired width */
+  max-width: 100%; /* Ensure it's not too constrained */
+}
+
